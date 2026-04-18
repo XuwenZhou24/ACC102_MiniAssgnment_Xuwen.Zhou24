@@ -1,1 +1,28 @@
-# ACC102_MiniAssgnment_Xuwen.Zhou24
+# Stock Market and Financial Analysis of Big Tech Company
+
+## 1. Problem & User 
+This project analyzes the capital efficiency of 3 US tech giants for long-term investors.
+
+## 2. Data (source + access date + key fields)
+All data was obtained from the WRDS (Wharton Research Data Services) platform. Stock market data was retrieved from the CRSP daily stock file and includes daily closing price, daily return, and trading volume. Financial statement data was retrieved from the Compustat Fundamentals Annual file and includes revenue, net income, EBITDA, research and development expense, total assets, and total equity. The sample covers the period from 1 January 2020 to 31 December 2024, and data was accessed in 17 April 2026.
+
+## 3. Methods (main Python steps)
+The analysis was performed in Python using a Jupyter Notebook. The main steps are summarised as follows.
+
+Stock and financial data were extracted from WRDS using SQL queries within the `wrds` Python package. Date columns were converted to datetime format and a year variable was created for annual aggregation. For the stock data, daily observations were grouped by ticker and year to calculate average price, mean daily return, total volume, and the standard deviation of daily returns as a measure of volatility. For the financial data, items were aggregated by ticker and year, and several financial ratios were computed, including net profit margin, EBITDA margin, R&D intensity, return on assets (ROA), and return on equity (ROE).
+
+The two datasets were merged on company and year. A simple risk-adjusted return metric was calculated by dividing the mean daily return by return volatility. Line charts were created to visualise trends in average stock price, revenue, ROE, and ROA.
+
+## 4. Key Findings (3–5 bullets)
+- Apple maintained the highest return on equity across the period, with values consistently above 150%, reflecting a combination of strong net income and a reduced equity base due to share repurchases.
+- Microsoft showed the strongest operating margins, with EBITDA margin exceeding 50% in 2024, indicating high operational efficiency.
+- Google allocated the largest share of revenue to research and development, with R&D intensity remaining around 14–15% annually.
+- All three firms experienced negative mean daily returns in 2022, consistent with the broader technology sector downturn during that year.
+- When comparing risk-adjusted returns, Microsoft and Google exhibited a steadier recovery in 2023 and 2024, while Apple's ratio was more variable.
+
+## 5. How to run (optional but valuable)
+A valid WRDS account is required to execute the notebook.
+Install the required packages:
+Open the notebook and replace the placeholder WRDS username with your own credentials. Run all cells in order. The notebook will prompt for a password when establishing the connection. All data is accessed programmatically, so no local data files are needed.
+## 6. Product link / Demo
+## 7. Limitations & next steps
