@@ -2,8 +2,7 @@
 
 ## 1. Problem & User 
 **Problem:**
-the relationship between corporate financial performance and stock returns across three major tech firms (Apple, Microsoft, Alphabet) from 2020 to 2024.
-
+the relationship between corporate financial performance and stock returns across three major tech firms (Apple, Microsoft, Alphabet) from 2020 to 2024.    
 **Target user:**
 long-term equity investors.
 
