@@ -34,7 +34,7 @@ The two datasets were merged on company and year. A simple risk-adjusted return 
 -Demo Video: [Insert your 1–3 minute demo video link here]
 
 ## 7. Limitations & next steps
-- The analysis covers only three companies over a five-year period, which limits the ability to draw broader sector-wide conclusions.
-- Annual aggregation smooths over quarterly fluctuations and masks events that occur within each year.
-- ROE figures are affected by differing share buyback policies across firms, making direct comparison less straightforward.
-- Future work could extend the time series to ten years, incorporate quarterly data, and add free cash flow analysis to distinguish operational performance from financial engineering.
+- Only annual data is used, lacking granularity and macroeconomic impact analysis.  
+​- Shows correlation but not causal relationships.   
+​- Python workflow is linear and not modularized.       
+​- Relies on visual observation without statistical modeling.
