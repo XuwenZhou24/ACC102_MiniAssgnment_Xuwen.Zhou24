@@ -24,9 +24,10 @@ The two datasets were merged on company and year. A simple risk-adjusted return 
 - When comparing risk-adjusted returns, Microsoft and Google exhibited a steadier recovery in 2023 and 2024, while Apple's ratio was more variable.
 
 ## 5. How to run 
-A valid WRDS account is required to execute the notebook.
-Install the required packages:
-Open 'acc102_miniassignment_notebook.ipynb'notebook and replace the placeholder WRDS username with your own credentials. Run all cells in order. The notebook will prompt for a password when establishing the connection. 
+1. Ensure a valid WRDS account and a working Python environment are prepared in advance.
+2. Open `acc102_miniassignment_notebook.ipynb` and replace the placeholder WRDS username with your own credentials.
+3. Run cells in order. Enter your WRDS password when the database connection prompt appears.
+4. Complete WRDS authentication, then continue executing the rest of the notebook.
 
 ## 6. Product link / Demo
 -GitHub Repository: https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24/edit/main/README.md
