@@ -10,11 +10,19 @@ long-term equity investors.
 All data was obtained from the WRDS (Wharton Research Data Services) platform. Stock market data was retrieved from the CRSP daily stock file and includes daily closing price, daily return, and trading volume. Financial statement data was retrieved from the Compustat Fundamentals Annual file and includes revenue, net income, EBITDA, research and development expense, total assets, and total equity. The sample covers the period from 1 January 2020 to 31 December 2024, and data was accessed in 17 April 2026.
 
 ## 3. Methods (main Python steps)
-The analysis was performed in Python using a Jupyter Notebook. The main steps are summarised as follows.
-
-Stock and financial data were extracted from WRDS using SQL queries within the `wrds` Python package. Date columns were converted to datetime format and a year variable was created for annual aggregation. For the stock data, daily observations were grouped by ticker and year to calculate average price, mean daily return, total volume, and the standard deviation of daily returns as a measure of volatility. For the financial data, items were aggregated by ticker and year, and several financial ratios were computed, including net profit margin, EBITDA margin, R&D intensity, return on assets (ROA), and return on equity (ROE).
-
-The two datasets were merged on company and year. A simple risk-adjusted return metric was calculated by dividing the mean daily return by return volatility. Line charts were created to visualise trends in average stock price, revenue, ROE, and ROA.
+**1. Data Preprocessing:**
+- Date Standardization: Convert date columns to  datetime  format and create a year variable for consistent annual time alignment across datasets
+- Naming Unification: Apply  rename()  to standardize column naming conventions
+**2. Data Aggregation & Metric Calculation**
+- Stock Data Aggregation: Daily observations were grouped by  ticker  and  year  using  groupby()  and  agg()  to compute annual metrics including average stock price, mean daily return, total trading volume, and standard deviation of daily returns as a volatility measure.
+- Financial Data Aggregation: Financial items were similarly aggregated by  ticker  and  year , with key performance ratios manually calculated from standardized financial items: net profit margin, EBITDA margin, R&D intensity, return on assets (ROA), and return on equity (ROE).
+**3. Dataset Integration**
+- Merge: Use  pd.merge()  on company (ticker) and year to combine stock and financial datasets
+- Derived Metric: Calculate risk-adjusted return = mean daily return / return volatility
+**4. Data Visualization**
+- Tool: pandas built-in plotting functionality
+- Chart Type: Line charts
+- Visualized Dimensions: Average stock price trends, revenue trends, ROE trends, ROA trends
 
 ## 4. Key Findings 
 - Apple’s persistently high ROE (over 150%) demonstrates that strong profitability and capital structure management support long-term stock performance.
