@@ -9,7 +9,7 @@ long-term equity investors.
 ## 2. Data 
 All data was obtained from the WRDS (Wharton Research Data Services) platform. Stock market data was retrieved from the CRSP daily stock file and includes daily closing price, daily return, and trading volume. Financial statement data was retrieved from the Compustat Fundamentals Annual file and includes revenue, net income, EBITDA, research and development expense, total assets, and total equity. The sample covers the period from 1 January 2020 to 31 December 2024, and data was accessed in 17 April 2026.
 
-## 3. Methods (main Python steps)
+## 3. Methods 
 **1. Data Preprocessing:**
 - Date Standardization: Convert date columns to  datetime  format and create a year variable for consistent annual time alignment across datasets
 - Naming Unification: Apply  rename()  to standardize column naming conventions
