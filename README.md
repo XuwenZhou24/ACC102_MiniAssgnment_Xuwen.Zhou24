@@ -30,8 +30,8 @@ The two datasets were merged on company and year. A simple risk-adjusted return 
 4. Complete WRDS authentication, then continue executing the rest of the notebook.
 
 ## 6. Product link / Demo
--GitHub Repository: https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24/edit/main/README.md
--Demo Video: [Insert your 1–3 minute demo video link here]
+- GitHub Repository: https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24/edit/main/README.md
+- Demo Video: [Insert your 1–3 minute demo video link here]
 
 ## 7. Limitations & next steps
 - Only annual data is used, lacking granularity and macroeconomic impact analysis.  
