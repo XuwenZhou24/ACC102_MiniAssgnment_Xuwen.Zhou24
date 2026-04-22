@@ -42,7 +42,7 @@ All data was obtained from the WRDS (Wharton Research Data Services) platform. S
 
 ## 6. Product link / Demo
 - GitHub Repository: https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24/edit/main/README.md
-- Demo Video: [Insert your 1–3 minute demo video link here]
+- Demo Video: https://b23.tv/Nbw6sI7
 
 ## 7. Limitations & next steps
 - Only annual data is used, lacking granularity and macroeconomic impact analysis.  
