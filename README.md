@@ -13,12 +13,15 @@ All data was obtained from the WRDS (Wharton Research Data Services) platform. S
 **1. Data Preprocessing:**
 - Date Standardization: Convert date columns to  datetime  format and create a year variable for consistent annual time alignment across datasets
 - Naming Unification: Apply  rename()  to standardize column naming conventions
+
 **2. Data Aggregation & Metric Calculation**
 - Stock Data Aggregation: Daily observations were grouped by  ticker  and  year  using  groupby()  and  agg()  to compute annual metrics including average stock price, mean daily return, total trading volume, and standard deviation of daily returns as a volatility measure.
 - Financial Data Aggregation: Financial items were similarly aggregated by  ticker  and  year , with key performance ratios manually calculated from standardized financial items: net profit margin, EBITDA margin, R&D intensity, return on assets (ROA), and return on equity (ROE).
+
 **3. Dataset Integration**
 - Merge: Use  pd.merge()  on company (ticker) and year to combine stock and financial datasets
-- Derived Metric: Calculate risk-adjusted return = mean daily return / return volatility   
+- Derived Metric: Calculate risk-adjusted return = mean daily return / return volatility
+
 **4. Data Visualization**
 - Tool: pandas built-in plotting functionality
 - Chart Type: Line charts
