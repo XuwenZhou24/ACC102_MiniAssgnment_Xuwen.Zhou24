@@ -18,7 +18,7 @@ All data was obtained from the WRDS (Wharton Research Data Services) platform. S
 - Financial Data Aggregation: Financial items were similarly aggregated by  ticker  and  year , with key performance ratios manually calculated from standardized financial items: net profit margin, EBITDA margin, R&D intensity, return on assets (ROA), and return on equity (ROE).
 **3. Dataset Integration**
 - Merge: Use  pd.merge()  on company (ticker) and year to combine stock and financial datasets
-- Derived Metric: Calculate risk-adjusted return = mean daily return / return volatility
+- Derived Metric: Calculate risk-adjusted return = mean daily return / return volatility   
 **4. Data Visualization**
 - Tool: pandas built-in plotting functionality
 - Chart Type: Line charts
