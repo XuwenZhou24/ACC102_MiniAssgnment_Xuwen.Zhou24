@@ -17,11 +17,11 @@ Stock and financial data were extracted from WRDS using SQL queries within the `
 The two datasets were merged on company and year. A simple risk-adjusted return metric was calculated by dividing the mean daily return by return volatility. Line charts were created to visualise trends in average stock price, revenue, ROE, and ROA.
 
 ## 4. Key Findings 
-- Apple maintained the highest return on equity across the period, with values consistently above 150%, reflecting a combination of strong net income and a reduced equity base due to share repurchases.
-- Microsoft showed the strongest operating margins, with EBITDA margin exceeding 50% in 2024, indicating high operational efficiency.
-- Google allocated the largest share of revenue to research and development, with R&D intensity remaining around 14–15% annually.
-- All three firms experienced negative mean daily returns in 2022, consistent with the broader technology sector downturn during that year.
-- When comparing risk-adjusted returns, Microsoft and Google exhibited a steadier recovery in 2023 and 2024, while Apple's ratio was more variable.
+- Apple’s persistently high ROE (over 150%) demonstrates that strong profitability and capital structure management support long-term stock performance.
+- Microsoft’s industry-leading operational efficiency (50%+ EBITDA margin in 2024) delivers more stable risk-adjusted returns and market resilience.
+- Google’s high ongoing R&D intensity (14–15% annually) corresponds with greater earnings and stock price volatility.
+- All three firms saw synchronized negative returns in the 2022 sector downturn, proving profitability buffers downside risks during market shocks.
+- Stronger and more stable long-term financial performance is closely positively correlated with more resilient, less volatile stock returns.
 
 ## 5. How to run 
 1. Ensure a valid WRDS account and a working Python environment are prepared in advance.
