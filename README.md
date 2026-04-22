@@ -40,9 +40,9 @@ All data was obtained from the WRDS (Wharton Research Data Services) platform. S
 3. Run cells in order. Enter your WRDS password when the database connection prompt appears.
 4. Complete WRDS authentication, then continue executing the rest of the notebook.
 
-## 6. Product link / Demo
-- GitHub Repository: https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24/edit/main/README.md
-- Demo Video: https://b23.tv/Nbw6sI7
+## 6. Product link 
+- GitHub Repository: [Click here for repo](https://github.com/XuwenZhou24/ACC102_MiniAssgnment_Xuwen.Zhou24)
+- Demo Video: [Click here for demo video](https://b23.tv/Nbw6sI7)
 
 ## 7. Limitations & next steps
 - Only annual data is used, lacking granularity and macroeconomic impact analysis.  
