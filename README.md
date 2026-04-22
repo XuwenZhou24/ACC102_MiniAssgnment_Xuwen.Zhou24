@@ -35,6 +35,6 @@ The two datasets were merged on company and year. A simple risk-adjusted return 
 
 ## 7. Limitations & next steps
 - Only annual data is used, lacking granularity and macroeconomic impact analysis.  
-​- Shows correlation but not causal relationships.   
-​- Python workflow is linear and not modularized.       
-​- Relies on visual observation without statistical modeling.
+- Shows correlation but not causal relationships.
+- Python workflow is linear and not modularized.
+- Relies on visual observation without statistical modeling.
